@@ -1,8 +1,14 @@
 print("python bootcamp");
 
-num = input("type two numbers\n")
 
-if(len(num) <= 2):
-    print(int(num[0])+int(num[1]))
-else:
-    print("to many digits")
+# bmi calcuator
+
+
+
+height = int(input("your height\n"))
+weight = int(input("your weight\n"))
+height = height / 100
+
+bmi = round(weight / ((height)**2), 1)
+
+print(bmi)
