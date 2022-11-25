@@ -1,12 +1,11 @@
 print("python bootcamp");
 
 
-# bmi calcuator
+# tip calculator
 
-height = int(input("your height\n"))
-weight = int(input("your weight\n"))
-height = height / 100
+bill = int(input("what is the total bill\n"))
+tip = int(input("how much tip\n"))
+people = int(input("how many people\n"))
+bill_pp = bill * (1+(tip/100)) / people
 
-bmi = round(weight / ((height)**2), 1)
-
-print("Your BMI: \n" + str(bmi))
+print(f"Each person pay: {bill_pp}")
