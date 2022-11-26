@@ -9,15 +9,18 @@ def pizza_order():
 
     if size == "s":
         result += 15
+        if peperoni == "y":
+            result += 2
     elif size == "m":
         result += 20
+        if peperoni == "y":
+            result += 3
     elif size == "m":
         result += 25
+        if peperoni == "y":
+            result += 3
     else:
         print("wrong size")
-
-    if peperoni == "y":
-        result += 2
 
     if cheese == "y":
         result += 1
