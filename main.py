@@ -1,5 +1,5 @@
 
 
-from bmi_calculator import calc_bmi
+from leap_year import start
 
-calc_bmi()
+start()
