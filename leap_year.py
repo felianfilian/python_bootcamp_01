@@ -1,5 +1,5 @@
 
-def start():
+def leap_year():
     year = int(input("Which year to check\n"))
 
     if year % 4 == 0:
